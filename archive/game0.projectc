@@ -8,8 +8,8 @@ developer = deepheadgames
 title_as_file_name = Faccoin
 
 [display]
-width = 540
-height = 960
+width = 1080
+height = 1920
 high_dpi = 0
 samples = 0
 fullscreen = 0
