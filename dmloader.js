@@ -49,10 +49,6 @@ var CUSTOM_PARAMETERS = {
         var prevInnerWidth = -1;
         var prevInnerHeight = -1;
         
-        buttonHeight = 42;
-        
-        
-        buttonHeight = 42;
         
         // Hack for iOS when exit from Fullscreen mode
         if (is_iOS) {
@@ -211,8 +207,8 @@ var FileLoader = {
 
 
 var EngineLoader = {
-    wasm_size: 2808927,
-    wasmjs_size: 340283,
+    wasm_size: 2357939,
+    wasmjs_size: 340291,
     asmjs_size: 4000000,
     wasm_instantiate_progress: 0,
 
