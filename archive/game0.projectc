@@ -187,7 +187,7 @@ include_dirs = def
 shared_state = 1
 
 [label]
-max_count = 128
+max_count = 256
 subpixels = 1
 
 [profiler]
