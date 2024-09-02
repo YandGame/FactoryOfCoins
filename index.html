@@ -147,6 +147,12 @@
 	</div>
 	<!-- -->
 	<script id='engine-loader' type='text/javascript' src="dmloader.js"></script>
+	<script type="text/javascript">
+		window.onbeforeunload = function(){
+			print('on before unload')
+			JsToDef.send('final')
+		}
+	</script>
 
 	<script id='engine-start' type='text/javascript'>
 		var runningFromFileWarning = document.getElementById("running-from-file-warning");
