@@ -148,6 +148,10 @@
 	<!-- -->
 	<script id='engine-loader' type='text/javascript' src="dmloader.js"></script>
 	<script type="text/javascript">
+		window.blur = function(){
+			print('on blur')
+			JsToDef.send('final')
+		}
 		window.onbeforeunload = function(){
 			print('on before unload')
 			JsToDef.send('final')
